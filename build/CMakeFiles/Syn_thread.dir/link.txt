@@ -1,0 +1,3 @@
+D:\IDE\pkg\QT\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\syn_thread.dir/objects.a
+D:\IDE\Cpp\mingw64\bin\ar.exe qc CMakeFiles\syn_thread.dir/objects.a @CMakeFiles\syn_thread.dir\objects1.rsp
+D:\IDE\Cpp\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\syn_thread.dir/objects.a -Wl,--no-whole-archive -o syn_thread.exe -Wl,--out-implib,libsyn_thread.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\syn_thread.dir\linkLibs.rsp

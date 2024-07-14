@@ -1,0 +1,3 @@
+D:\IDE\pkg\QT\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\smart_ptr_shared_prt.dir/objects.a
+D:\IDE\Cpp\mingw64\bin\ar.exe qc CMakeFiles\smart_ptr_shared_prt.dir/objects.a @CMakeFiles\smart_ptr_shared_prt.dir\objects1.rsp
+D:\IDE\Cpp\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\smart_ptr_shared_prt.dir/objects.a -Wl,--no-whole-archive -o smart_ptr_shared_prt.exe -Wl,--out-implib,libsmart_ptr_shared_prt.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\smart_ptr_shared_prt.dir\linkLibs.rsp

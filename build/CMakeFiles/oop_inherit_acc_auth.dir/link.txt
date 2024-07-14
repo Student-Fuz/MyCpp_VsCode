@@ -1,0 +1,3 @@
+D:\IDE\pkg\QT\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\oop_inherit_acc_auth.dir/objects.a
+D:\IDE\Cpp\mingw64\bin\ar.exe qc CMakeFiles\oop_inherit_acc_auth.dir/objects.a @CMakeFiles\oop_inherit_acc_auth.dir\objects1.rsp
+D:\IDE\Cpp\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\oop_inherit_acc_auth.dir/objects.a -Wl,--no-whole-archive -o oop_inherit_acc_auth.exe -Wl,--out-implib,liboop_inherit_acc_auth.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\oop_inherit_acc_auth.dir\linkLibs.rsp

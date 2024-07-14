@@ -1,0 +1,2 @@
+D:\IDE\Cpp\mingw64\bin\ar.exe qc libtickets_sale.a CMakeFiles/tickets_sale.dir/processes_threads/synchronization/Threads/TicketsSale.cpp.obj
+D:\IDE\Cpp\mingw64\bin\ranlib.exe libtickets_sale.a

@@ -1,0 +1,3 @@
+D:\IDE\pkg\QT\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\pthread.dir/objects.a
+D:\IDE\Cpp\mingw64\bin\ar.exe qc CMakeFiles\pthread.dir/objects.a @CMakeFiles\pthread.dir\objects1.rsp
+D:\IDE\Cpp\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\pthread.dir/objects.a -Wl,--no-whole-archive -o pthread.exe -Wl,--out-implib,libpthread.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pthread.dir\linkLibs.rsp

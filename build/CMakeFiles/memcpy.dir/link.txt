@@ -1,0 +1,3 @@
+D:\IDE\pkg\QT\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\memcpy.dir/objects.a
+D:\IDE\Cpp\mingw64\bin\ar.exe qc CMakeFiles\memcpy.dir/objects.a @CMakeFiles\memcpy.dir\objects1.rsp
+D:\IDE\Cpp\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\memcpy.dir/objects.a -Wl,--no-whole-archive -o memcpy.exe -Wl,--out-implib,libmemcpy.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\memcpy.dir\linkLibs.rsp
