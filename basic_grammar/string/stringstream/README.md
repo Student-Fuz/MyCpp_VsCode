@@ -1,46 +1,46 @@
-## stringstreamÀà
+## stringstreamç±»
 
-ÔÚC++ÓĞÁ½ÖÖ×Ö·û´®Á÷£¬Ò»ÖÖÔÚsstreamÖĞ¶¨Òå£¬ ÁíÒ»ÖÖÔÚstrstreamÖĞ¶¨Òå¡£
-ËüÃÇÊµÏÖµÄ¶«Î÷»ù±¾Ò»Ñù¡£
-×÷ÓÃÀàËÆÓÚCÓïÑÔÖĞµÄsprintf()/scanf()
+åœ¨C++æœ‰ä¸¤ç§å­—ç¬¦ä¸²æµï¼Œä¸€ç§åœ¨sstreamä¸­å®šä¹‰ï¼Œ å¦ä¸€ç§åœ¨strstreamä¸­å®šä¹‰ã€‚
+å®ƒä»¬å®ç°çš„ä¸œè¥¿åŸºæœ¬ä¸€æ ·ã€‚
+ä½œç”¨ç±»ä¼¼äºCè¯­è¨€ä¸­çš„sprintf()/scanf()
 
-**strstream¿â**
+**strstreamåº“**
 ```cpp
 #include <strstream>
 ```
-strstreamÀï°üº¬
+strstreamé‡ŒåŒ…å«
 class strstreambuf;
 class istrstream;
 class ostrstream;
 class strstream;
-ËüÃÇÊÇ»ùÓÚCÀàĞÍ×Ö·û´®char*±àĞ´µÄ
+å®ƒä»¬æ˜¯åŸºäºCç±»å‹å­—ç¬¦ä¸²char*ç¼–å†™çš„
 
-**sstream¿â**
+**sstreamåº“**
 ```cpp
 #include <sstream>
 ```
-sstreamÖĞ°üº¬
+sstreamä¸­åŒ…å«
 class istringstream;
 class ostringstream;
 class stringbuf;
 class stringstream;
-class ¡­¡­.
-ËüÃÇÊÇ»ùÓÚstd::string±àĞ´µÄ
+class â€¦â€¦.
+å®ƒä»¬æ˜¯åŸºäºstd::stringç¼–å†™çš„
 
-Òò´Ëostrstream::str()·µ»ØµÄÊÇchar*ÀàĞÍµÄ×Ö·û´®
-¶øostringstream::str()·µ»ØµÄÊÇstd::stringÀàĞÍµÄ×Ö·û´®
+å› æ­¤ostrstream::str()è¿”å›çš„æ˜¯char*ç±»å‹çš„å­—ç¬¦ä¸²
+è€Œostringstream::str()è¿”å›çš„æ˜¯std::stringç±»å‹çš„å­—ç¬¦ä¸²
 
-ÔÚÊ¹ÓÃµÄÊ±ºòÒª×¢Òâµ½¶şÕßµÄÇø±ğ£¬Ò»°ãÇé¿öÏÂÍÆ¼öÊ¹ÓÃstd::stringÀàĞÍµÄ×Ö·û´®
-µ±È»Èç¹ûÎªÁË±£³ÖºÍCµÄ¼æÈİ£¬Ê¹ÓÃstrstreamÒ²ÊÇ²»´íµÄÑ¡Ôñ¡£
+åœ¨ä½¿ç”¨çš„æ—¶å€™è¦æ³¨æ„åˆ°äºŒè€…çš„åŒºåˆ«ï¼Œä¸€èˆ¬æƒ…å†µä¸‹æ¨èä½¿ç”¨std::stringç±»å‹çš„å­—ç¬¦ä¸²
+å½“ç„¶å¦‚æœä¸ºäº†ä¿æŒå’ŒCçš„å…¼å®¹ï¼Œä½¿ç”¨strstreamä¹Ÿæ˜¯ä¸é”™çš„é€‰æ‹©ã€‚
 
-Ê¹ÓÃ·½·¨£º
-1. ÒÔ¿Õ¸ñ·Ö¸ôÊäÈë×Ö·û´®
+ä½¿ç”¨æ–¹æ³•ï¼š
+1. ä»¥ç©ºæ ¼åˆ†éš”è¾“å…¥å­—ç¬¦ä¸²
     
-2. ½øĞĞ³£¼ûµÄÀàĞÍ×ª»»
+2. è¿›è¡Œå¸¸è§çš„ç±»å‹è½¬æ¢
 
-**×¢ÒâÊÂÏî**£ºÖØ¸´Ê¹ÓÃstrigstream¶ÔÏóÊ±£¬×ª»»Ç°ÒªÊ¹ÓÃclear()·½·¨¡£
+**æ³¨æ„äº‹é¡¹**ï¼šé‡å¤ä½¿ç”¨strigstreamå¯¹è±¡æ—¶ï¼Œè½¬æ¢å‰è¦ä½¿ç”¨clear()æ–¹æ³•ã€‚
 
-[Àı³Ì](stringstream.cpp)
+[ä¾‹ç¨‹](stringstream.cpp)
 
 
 
