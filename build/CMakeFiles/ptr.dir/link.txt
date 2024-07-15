@@ -1,3 +1,0 @@
-D:\IDE\pkg\QT\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\ptr.dir/objects.a
-D:\IDE\Cpp\mingw64\bin\ar.exe qc CMakeFiles\ptr.dir/objects.a @CMakeFiles\ptr.dir\objects1.rsp
-D:\IDE\Cpp\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ptr.dir/objects.a -Wl,--no-whole-archive -o ptr.exe -Wl,--out-implib,libptr.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ptr.dir\linkLibs.rsp

@@ -1,3 +1,0 @@
-D:\IDE\pkg\QT\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\stl_map.dir/objects.a
-D:\IDE\Cpp\mingw64\bin\ar.exe qc CMakeFiles\stl_map.dir/objects.a @CMakeFiles\stl_map.dir\objects1.rsp
-D:\IDE\Cpp\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\stl_map.dir/objects.a -Wl,--no-whole-archive -o stl_map.exe -Wl,--out-implib,libstl_map.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\stl_map.dir\linkLibs.rsp

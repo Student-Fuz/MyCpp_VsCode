@@ -1,3 +1,0 @@
-D:\IDE\pkg\QT\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\template_inherit.dir/objects.a
-D:\IDE\Cpp\mingw64\bin\ar.exe qc CMakeFiles\template_inherit.dir/objects.a @CMakeFiles\template_inherit.dir\objects1.rsp
-D:\IDE\Cpp\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\template_inherit.dir/objects.a -Wl,--no-whole-archive -o template_inherit.exe -Wl,--out-implib,libtemplate_inherit.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\template_inherit.dir\linkLibs.rsp

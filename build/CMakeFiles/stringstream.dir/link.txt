@@ -1,3 +1,0 @@
-D:\IDE\pkg\QT\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\stringstream.dir/objects.a
-D:\IDE\Cpp\mingw64\bin\ar.exe qc CMakeFiles\stringstream.dir/objects.a @CMakeFiles\stringstream.dir\objects1.rsp
-D:\IDE\Cpp\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\stringstream.dir/objects.a -Wl,--no-whole-archive -o stringstream.exe -Wl,--out-implib,libstringstream.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\stringstream.dir\linkLibs.rsp
