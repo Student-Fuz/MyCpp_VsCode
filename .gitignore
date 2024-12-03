@@ -1,0 +1,8 @@
+.vscode
+
+## Windows 
+*.exe
+
+## Linux
+
+*.o
